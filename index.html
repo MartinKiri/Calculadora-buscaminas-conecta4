@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>visualización</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    section {
+      background-color: #bdbdbd;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h3 {
+      text-align: center;
+      width: 100vw;
+      background-color:#000080 ;
+      color: white;
+      margin: 0;
+    }
+
+    .vision {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1.5em;
+    }
+
+    .calculadora,
+    .conecta,
+    .mina{
+      display: flex;
+      flex-direction: column;
+    }
+
+    iframe {
+      width: 25vw;
+      height: 35vh;
+      border-left: 2px solid #FCFCFC;
+      border-top: 2px solid #FCFCFC;
+      border-right: 2px solid #2A2A2A;
+      border-bottom: 2px solid #2A2A2A;
+    }
+
+    p,
+    a {
+      text-align: center;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section>
+      <h3>Aqui tienes una pequeña previsualización del contenido que se se ha realizado en cada ejercicio</h3>
+      <div class="98">
+        <div class="vision">
+          <div class="calculadora">
+            <p>Ejercicio de ... Calculadora</p>
+            <iframe src="" frameborder="0"></iframe>
+            <br>
+            <a href=""> Clic aqui para ir a la visualización del ejercicio</a>
+          </div>
+          <div class="conecta">
+            <p>Ejercicio de ... conecta 4</p>
+            <iframe src="" frameborder="0"></iframe>
+            <br>
+            <a href=""> Clic aqui para ir a la visualización del ejercicio</a>
+          </div>
+          <div class="mina">
+            <p>Ejercicio de ... busca minas</p>
+            <iframe src="" frameborder="0"></iframe>
+            <br>
+            <a href=""> Clic aqui para ir a la visualización del ejercicio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
