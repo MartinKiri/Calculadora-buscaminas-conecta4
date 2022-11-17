@@ -1,0 +1,50 @@
+body {
+  background: #bdbdbd;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#calcu {
+  height: 60vh;
+  width: 25vw;
+}
+
+#calcu form {
+  border: 1px solid white;
+  border-radius: 1em;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  background-color: black;
+}
+
+#calcu input[type="textfield"] {
+  width: 90%;
+  height: 8vh;
+  cursor: default;
+  color: green;
+  padding: 1.5em;
+  background-color: black;
+  outline: none;
+  border: 0;
+  border-radius: 100%;
+}
+#calcu input[type="button"],
+input[type="reset"] {
+  width: 22%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 3em;
+  margin: 4px;
+  border-radius: 100%;
+}
+
+.naranja {
+  background-color: orange;
+  color: white;
+}
+.gris {
+  background-color: #bdbdbd;
+}
